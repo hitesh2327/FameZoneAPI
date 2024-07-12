@@ -1,0 +1,27 @@
+{
+  "name": "famezoneapi",
+  "version": "1.0.0",
+  "description": "E-Commerce API",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitesh2327/FameZoneAPI.git"
+  },
+  "author": "Hitesh Lalwani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hitesh2327/FameZoneAPI/issues"
+  },
+  "homepage": "https://github.com/hitesh2327/FameZoneAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7"
+  }
+}
