@@ -1,7 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const { getUserFunction } = require("../../Controller/User/userController");
+const {
+  getUserFunction,
+  userValidateFunction,
+} = require("../../Controller/User/userController");
 
 router.post("/getUser", getUserFunction);
+router.post("/userValidate", userValidateFunction);
 
 module.exports = router;
